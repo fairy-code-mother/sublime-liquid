@@ -2,11 +2,11 @@
 Sublime preferences and snippets to make Shopify theme development faster.
 
 ## Installation
-For OSX users, place each snippet you want to use inside <user>/Library/Application Support/Sublime Text 3/Packages/User/
+For OSX users, place each snippet you want to use inside `<user>`/Library/Application Support/Sublime Text 3/Packages/User/
 Windows or other platforms, you're on your own for the location, but there's enough documentation out there.
 
 ## Use
-The snippet is called by a series of keys followed by Tab key. In each snippet file, look for <tabTrigger> and you will see the keys needed to initiate the snippet. For schema input settings each tag trigger starts with `s` standing for "schema".
+The snippet is called by a series of keys followed by Tab key. In each snippet file, look for `<tabTrigger>` and you will see the keys needed to initiate the snippet. For schema input settings each tag trigger starts with `s` standing for "schema".
 
 ## Make it your own
 Don't like the tabtrigger keys, or want to modify the snippet? Go for it.
@@ -14,7 +14,8 @@ Don't like the tabtrigger keys, or want to modify the snippet? Go for it.
 ## Contents
 
 ### Basic Schema Input Settings
-Checkbox
+**Checkbox**
+
 `scheckbox` + Tab outputs
 ```
  {
@@ -24,7 +25,8 @@ Checkbox
     "default": 
   }
 ```
-Number
+**Number**
+
 `snumber` + Tab outputs
 ```
  {
@@ -34,7 +36,8 @@ Number
     "default": 
   }
 ```
-Radio
+**Radio**
+
 `sradio` + Tab outputs
 ```
  {
@@ -50,7 +53,8 @@ Radio
     "default": ""
   }
 ```
-Range
+**Range**
+
 `srange` + Tab outputs
 ```
  {
@@ -64,7 +68,8 @@ Range
     "default": 
   }
 ```
-Select
+**Select**
+
 `sselect` + Tab outputs
 ```
   {
@@ -88,7 +93,8 @@ Select
     "default": ""
   }
 ```
-Text
+**Text**
+
 `stext` + Tab outputs
 ```
   {
@@ -98,7 +104,8 @@ Text
     "default": ""
   }
 ```
-Textarea
+**Textarea**
+
 `stext` + Tab outputs
 ```
   {
@@ -110,7 +117,8 @@ Textarea
 ```
 
 ### Specialized Schema Input Settings
-Article
+**Article**
+
 `sarticle` + Tab outputs
 ```
  {
@@ -119,7 +127,8 @@ Article
     "label": "Article"
   }
 ```
-Blog
+**Blog**
+
 `sblog` + Tab outputs
 ```
  {
@@ -128,7 +137,8 @@ Blog
     "label": "Blog"
   }
 ```
-Collection
+**Collection**
+
 `scollection` + Tab outputs
 ```
    {
@@ -137,7 +147,8 @@ Collection
     "label": "Collection"
   }
 ```
-Page
+**Page**
+
 `spage` + Tab outputs
 ```
   {
@@ -146,7 +157,8 @@ Page
     "label": ""
   }
 ```
-Product
+**Product**
+
 `sproduct` + Tab outputs
 ```
   {
@@ -155,7 +167,8 @@ Product
     "label": ""
   }
 ```
-Color
+**Color**
+
 `scolor` + Tab outputs
 ```
   {
@@ -165,7 +178,8 @@ Color
     "default": "#"
   }
 ```
-Font Picker
+**Font Picker**
+
 `sfont` + Tab outputs
 ```
   {
@@ -175,7 +189,8 @@ Font Picker
     "default": "#"
   }
 ```
-HTML
+**HTML**
+
 `shtml` + Tab outputs
 ```
   {
@@ -184,7 +199,8 @@ HTML
     "label": ""
   }
 ```
-Image Picker
+**Image Picker**
+
 `simage` + Tab outputs
 ```
   {
@@ -193,7 +209,8 @@ Image Picker
     "label": ""
   }
 ```
-Linklist
+**Linklist**
+
 `slinklist` + Tab outputs
 ```
   {
@@ -202,7 +219,8 @@ Linklist
     "label": ""
   }
 ```
-Liquid
+**Liquid**
+
 `sliquid` + Tab outputs
 ```
   {
@@ -212,7 +230,8 @@ Liquid
     "default": ""
   }
 ```
-Richtext
+**Richtext**
+
 `srichtext` + Tab outputs
 ```
   {
@@ -221,7 +240,8 @@ Richtext
     "label": ""
   }
 ```
-Url
+**Url**
+
 `surl` + Tab outputs
 ```
   {
@@ -230,7 +250,8 @@ Url
     "label": ""
   }
 ```
-Video URL
+**Video URL**
+
 `svideo` + Tab outputs
 ```
   {
