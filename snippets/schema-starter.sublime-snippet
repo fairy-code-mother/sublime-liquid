@@ -1,0 +1,31 @@
+<snippet>
+  <content><![CDATA[
+  {% schema %}
+  {
+    "name": "${1}",
+    "tag": "${2}",
+    "class": "${3}",
+    "max_blocks": ${4},
+    "settings": [
+      ${5}
+    ],
+    "blocks": [
+      {
+        "name": "${6}",
+        "type": "${7}",
+        "settings": [
+          ${8}
+        ]
+      }
+    ]
+  }
+  {% endschema %}
+
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>sschema</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+  <scope>text.html.basic.liquid </scope>
+  <description>Schema starter settings</description>
+</snippet>

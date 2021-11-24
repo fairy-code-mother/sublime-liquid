@@ -1,0 +1,19 @@
+<snippet>
+  <content><![CDATA[
+  {
+    "type": "video_url",
+    "id": "${1}",
+    "label": "${2}",
+    "accept": [
+      "youtube",
+      "vimeo"
+    ]
+  }
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>svideo</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+  <scope>text.html.basic.liquid </scope>
+  <description>Video schema input setting</description>
+</snippet>

@@ -1,0 +1,20 @@
+<snippet>
+  <content><![CDATA[
+  {
+    "type": "range",
+    "id": "${1}",
+    "min": ${2},
+    "max": ${3},
+    "step": ${4},
+    "unit": "${5}",
+    "label": "${6}",
+    "default": ${7}
+  }
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>srange</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+  <scope>text.html.basic.liquid </scope>
+  <description>Range schema input setting</description>
+</snippet>

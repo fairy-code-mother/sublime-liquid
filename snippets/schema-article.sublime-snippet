@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+  {
+    "type": "article",
+    "id": "${1}",
+    "label": "Article"
+  }
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>sarticle</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+  <scope>text.html.basic.liquid </scope>
+  <description>Article schema input setting</description>
+</snippet>

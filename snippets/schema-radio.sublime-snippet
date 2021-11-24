@@ -1,0 +1,22 @@
+<snippet>
+  <content><![CDATA[
+  {
+    "type": "radio",
+    "id": "${1}",
+    "label": "${2}",
+    "options": [
+      {
+        "value": "${3}",
+        "label": "${4}"
+      }
+    ],
+    "default": "${5}"
+  }
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>sradio</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+  <scope>text.html.basic.liquid </scope>
+  <description>Radio schema input setting</description>
+</snippet>
