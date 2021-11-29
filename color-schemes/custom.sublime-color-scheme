@@ -1,0 +1,98 @@
+// Documentation at https://www.sublimetext.com/docs/color_schemes.html
+{
+  "variables":
+  {
+
+  },
+  "globals":
+  {
+  },
+  "rules":
+  [
+    {
+      "name": "Liquid Meta Tag",
+      "scope": "meta.tag.liquid",
+      "foreground": "peachpuff"
+    },
+    {
+      "name": "Liquid Percent Delimeter Begin/End",
+      "scope": "punctuation.definition.tag.begin.liquid, punctuation.definition.tag.end.liquid",
+      "foreground": "mediumturquoise"
+    },
+    {
+      "name": "Liquid Curly Bracket Begin/End",
+      "scope": "punctuation.definition.object.begin.liquid, punctuation.definition.object.end.liquid",
+      "foreground": "mediumturquoise"
+    },
+    {
+      "name": "Liquid Curly Bracket Contents",
+      "scope": "variable.other.liquid",
+      "foreground": "peachpuff"
+    },
+    {
+      "name": "Liquid Curly Bracket Underscore",
+      "scope": "punctuation.under.separator.liquid",
+      "foreground": "peachpuff"
+    },
+    {
+      "name": "Liquid Colons",
+      "scope": "punctuation.separator.key-value.liquid",
+      "foreground": "white"
+    },
+    {
+      "name": "Liquid Pipes",
+      "scope": "keyword.operator.logical.pipe.liquid",
+      "foreground": "white"
+    },
+    {
+      "name": "Liquid Filters",
+      "scope": "support.function.filter.liquid",
+      "foreground": "mediumpurple"
+    },
+    {
+      "name": "Liquid Strings Begin/End and Contents",
+      "scope": "punctuation.definition.string.begin.liquid, punctuation.definition.string.end.liquid, string.quoted.single.liquid, string.quoted.double.liquid",
+      "foreground": "paleturquoise"
+    },
+    {
+      "name": "Liquid Variable",
+      "scope": "variable.other.liquid",
+      "foreground": "seashell"
+    },
+    {
+      "name": "Liquid Punctuation",
+      "scope": "punctuation.separator.liquid",
+      "foreground": "mediumturquoise"
+    },
+    {
+      "name": "JSON Curly Begin/End",
+      "scope": "punctuation.section.mapping.begin.json, punctuation.section.mapping.end.json",
+      "foreground": "mediumturquoise"
+    },
+    {
+      "name": "JSON Brackets Begin/End",
+      "scope": "punctuation.section.sequence.begin.json, punctuation.section.sequence.end.json",
+      "foreground": "#FF4082"
+    },
+    {
+      "name": "JSON Commas",
+      "scope": "punctuation.separator.sequence.json",
+      "foreground": "white"
+    },
+    {
+      "name": "JSON Keys",
+      "scope": "meta.mapping.key.json string.quoted.double.json",
+      "foreground": "lightcyan"
+    },
+    {
+      "name": "JSON Values",
+      "scope": "meta.mapping.value.json string.quoted.double.json",
+      "foreground": "#FF4082"
+    },
+    {
+      "name": "JSON Value Commas",
+      "scope": "punctuation.separator.mapping.pair.json",
+      "foreground": "white"
+    },
+  ]
+}
