@@ -17,10 +17,20 @@
           ${8}
         ]
       }
-    ]
+    ],
+    "presets": [
+      {
+        "name": "${9}",
+        "blocks": [
+          {
+            "type": "${10}"
+          }
+        ]
+      }
+    ],
+    "templates": [${11}"404", "article", "blog", "cart", "collection", "list-collections", "index", "page", "product", "search"]
   }
   {% endschema %}
-
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>sschema</tabTrigger>

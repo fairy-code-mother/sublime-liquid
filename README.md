@@ -14,6 +14,7 @@ Don't like the tabtrigger keys, or want to modify the snippet? Go for it.
 ## Contents
 - [Basic Schema Input Settings](#basic-schema-input-settings)
 - [Specialized Schema Input Settings](#specialized-schema-input-settings)
+- [Schema Starter](#schema-starter)
 - [Other Liquid Snippets](#other-liquid-snippets)
 - [How to edit the Liquid package snippets](#how-to-edit-the-liquid-package-snippets)
 - [How to Edit a Color Schemes Syntax Highlighting](#how-to-edit-a-color-schemes-syntax-highlighting)
@@ -268,6 +269,44 @@ Don't like the tabtrigger keys, or want to modify the snippet? Go for it.
       "vimeo"
     ]
   }
+```
+
+# Schema Starter
+If you are creating an all new Shopify section this snippet will give you a great starter schema tag with contents.
+
+`sschema` + Tab outputs
+```
+  {% schema %}
+  {
+    "name": "",
+    "tag": "",
+    "class": "",
+    "max_blocks": ,
+    "settings": [
+      
+    ],
+    "blocks": [
+      {
+        "name": "",
+        "type": "",
+        "settings": [
+          
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "",
+        "blocks": [
+          {
+            "type": ""
+          }
+        ]
+      }
+    ],
+    "templates": ["404", "article", "blog", "cart", "collection", "list-collections", "index", "page", "product", "search"]
+  }
+  {% endschema %}
 ```
 
 # Other Liquid Snippets
