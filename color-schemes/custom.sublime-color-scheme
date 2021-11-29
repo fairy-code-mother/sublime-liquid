@@ -55,11 +55,6 @@
       "foreground": "paleturquoise"
     },
     {
-      "name": "Liquid Variable",
-      "scope": "variable.other.liquid",
-      "foreground": "seashell"
-    },
-    {
       "name": "Liquid Punctuation",
       "scope": "punctuation.separator.liquid",
       "foreground": "mediumturquoise"

@@ -401,7 +401,6 @@ The scope defines what syntax your changing the color of. For scope here are a f
 - Liquid Pipes = `keyword.operator.logical.pipe.liquid`
 - Liquid Filters = `support.function.filter.liquid`
 - Liquid Strings Begin/End and Contents = `punctuation.definition.string.begin.liquid, punctuation.definition.string.end.liquid, string.quoted.single.liquid, string.quoted.double.liquid`
-- Liquid Variables = `variable.other.liquid`
 - Liquid Punctuation = `punctuation.separator.liquid`
 - JSON Curly Bracket Begin/End = `punctuation.section.mapping.begin.json, punctuation.section.mapping.end.json`
 - JSON Brackets Begin/End = `punctuation.section.sequence.begin.json, punctuation.section.sequence.end.json`
