@@ -272,7 +272,9 @@ Don't like the tabtrigger keys, or want to modify the snippet? Go for it.
 
 # Other Liquid Snippets
 The [Liquid](https://packagecontrol.io/packages/Liquid) package will give you a few starter snippets, but it is not maintained so new tags are not added. Below are new or missing snippets that can be added. Learn how to edit the liquid package [here](#how-to-edit-the-liquid-package-snippets).
+
 **Liquid Literal**
+
 `liq` + Tab outputs
 ```
   {%- liquid
@@ -283,12 +285,14 @@ The [Liquid](https://packagecontrol.io/packages/Liquid) package will give you a 
 ```
 
 **Render Tag**
+
 `rend` + Tab outputs
 ```
 {%- render '' -%}
 ```
 
 **Comment Tag**
+
 `comment` + Tab outputs
 ```
 {%- comment -%}
@@ -297,18 +301,21 @@ The [Liquid](https://packagecontrol.io/packages/Liquid) package will give you a 
 ```
 
 **Break Tag**
+
 `break` + Tab outputs
 ```
 {%- break -%}
 ```
 
 **Continue Tag**
+
 `continue` + Tab outputs
 ```
 {%- continue -%}
 ```
 
 **Raw Tag**
+
 `raw` + Tab outputs
 ```
 {%- raw -%}
